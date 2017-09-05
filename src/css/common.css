@@ -1,0 +1,11 @@
+
+
+html {
+    font-family: "KisOSC BT";
+}
+
+.delayLink {
+    font-size: 1.125rem;
+    cursor: pointer;
+    color: #787878;
+}

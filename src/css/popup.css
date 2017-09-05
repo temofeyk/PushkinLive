@@ -1,0 +1,11 @@
+.Popup {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    overflow: hidden;
+    background: #FFFFFF;
+    width: 50%;
+    height: 50%;
+}

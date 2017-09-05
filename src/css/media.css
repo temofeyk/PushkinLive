@@ -1,0 +1,27 @@
+html {
+    font-size: 16px;
+}
+
+@media (max-width: 1188px), (max-height: 1066px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1020px), (max-height: 915px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 680px), (max-height: 610px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media  (max-width: 507px), (max-height: 455px) {
+    html {
+        font-size: 6px;
+    }
+}

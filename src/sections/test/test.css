@@ -1,0 +1,50 @@
+.test_Button{
+    font-size: 1.5rem;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 2rem;
+    width: 16rem;
+    height: 4rem;
+    color: #FFFFFF;
+}
+.testTitle {
+    flex: 0 0 auto;
+    color : #bebdbd;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.testHeader {
+    color :#030303;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.testText {
+    flex: 1 1 auto;
+    color :#030303;
+    text-align: center;
+    font-size: 3.75rem;
+    font-style: italic;
+    width: 95%;
+    align-self: center;
+}
+.testButtons {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.Button__Right {
+   background: #47b611;
+    margin-right: 1.5rem;
+}
+
+.Button__Wrong {
+    background: #f94141;
+}

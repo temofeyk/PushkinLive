@@ -1,0 +1,83 @@
+.mainPage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: url("../../images/bg/main.png") 50% no-repeat;
+    background-size: contain;
+}
+
+.mainContainer {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.topContainer {
+    height: 50%;
+}
+
+.bottomContainer {
+    height: 50%;
+}
+
+.bottomContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainHeader{
+    font-size: 3rem;
+    margin: 5.25rem 0 2rem 0;
+}
+
+.mainText{
+    font-size: 1.25rem;
+}
+
+.mainText_Bottom{
+    margin: 0 0 2.4rem 0;
+}
+
+.questText, .rulesText{
+    font-size: 1.125rem;
+}
+
+.questText {
+    margin: 0.75rem  0 1.9rem 0;
+}
+
+.rules{
+    display: flex;
+    flex-direction: row;
+}
+
+.rules__Text{
+    color: #002a75;
+    font-style: italic;
+}
+
+.rules__Icon{
+    content: '';
+    background: url("../../images/bg/rules.png") no-repeat;
+    background-size: contain;
+    width: 1.125rem;
+
+}
+
+.Button__Start {
+    background-color: #f5e155;
+}
